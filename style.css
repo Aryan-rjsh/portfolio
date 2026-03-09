@@ -48,32 +48,29 @@ color:#00bcd4;
 /* Home section */
 
 .home{
-color:white;
 text-align:center;
-padding:100px 20px;
-background:#e8f0fe;
-background-image: url("background.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-min-height: auto;
+padding:120px 20px;
+
+background-image:url("background.jpg");
+background-size:cover;
+background-position:left center;
+background-repeat:no-repeat;
+
+min-height:90vh;
 }
 
 .home h2{
 font-size:36px;
-color: #ce731e;
-margin-left: 180px;
-font-family: 'Times New Roman', Times, serif;
-font-weight: bolder;
-text-shadow: #ce731e 2px 2px 8px;
+color:#ce731e;
+font-family:'Times New Roman', Times, serif;
+font-weight:bold;
+margin-left:250px;
 }
 
 .home p{
-    color: #00ccff;
-    font-weight: bolder;
-    margin-left: auto;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow:2px 2px 8px #00bcd4
+color:#00ccff;
+font-weight:bold;
+margin-left:250px;
 }
 
 
@@ -189,7 +186,7 @@ text-align:center;
 background:#222;
 color:white;
 padding:15px;
-margin-top:40px;
+margin-top:0;
 }
 
 /* Responsive design */
