@@ -1,0 +1,146 @@
+/* General page styling */
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+margin: 0;
+padding: 0;
+}
+
+/* Navigation bar */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#222;
+color:white;
+padding:15px 30px;
+}
+
+nav h1{
+margin:0;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#00bcd4;
+}
+
+/* Home section */
+
+.home{
+color:white;
+text-align:center;
+padding:100px 20px;
+background:#e8f0fe;
+background-image: url("background.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.home h2{
+font-size:36px;
+color: #00e5ff;
+}
+
+.home p{
+    color: #00e5ff;
+}
+
+/* About section */
+
+section{
+padding:40px;
+}
+
+/* Achievements section */
+
+body{
+margin:0;
+padding:0;
+}
+
+.achievements{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:25px;
+padding:40px 20px;
+
+min-height:90vh;   /* fills the screen height */
+
+background-image:url("image1.avif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* Achievement cards */
+
+.achievements-card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:8px;
+box-shadow:0px 3px 10px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.achievements-card h3{
+margin-top:0;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+background:#222;
+color:white;
+padding:15px;
+margin-top:40px;
+}
+
+/* Responsive design */
+
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+align-items:flex-start;
+}
+
+nav ul{
+flex-direction:column;
+margin-top:10px;
+}
+
+nav ul li{
+margin:10px 0;
+}
+
+.projects{
+flex-direction:column;
+align-items:center;
+}
+
+}
